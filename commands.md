@@ -6,13 +6,16 @@ Run from inside build directory.
 Regular pbrt:
 
 ```
-./pbrt ../../scenes/watercolor/watercolor/camera-1.pbrt --outfile rendered-images/watercolor_camera_1.exr --spp 100 --num-views-to-render 1 --log-level verbose
+./pbrt ../scenes/watercolor/watercolor/camera-1.pbrt --outfile rendered-images/watercolor_camera_1.exr --spp 100 --num-views-to-render 1 --log-level verbose
+
+./pbrt ../scenes/bistro/bistro_boulangerie.pbrt --outfile ../rendered-images/bistro_boulangerie.png --spp 100 --log-level verbose
+
 ```
 
 Multiview pbrt test:
 
 ```
-./pbrt_multiview ../../scenes/watercolor/watercolor/camera-1.pbrt --outfile rendered-images/watercolor.exr --spp 100 --num-views-to-render 1 --log-level verbose
+./pbrt_multiview ../scenes/watercolor/watercolor/camera-1.pbrt --outfile rendered-images/watercolor.exr --spp 100 --num-views-to-render 1 --log-level verbose
 ```
 
 ## Train Models
