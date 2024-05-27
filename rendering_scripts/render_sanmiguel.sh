@@ -17,7 +17,7 @@ height=64
 spp_values=(1 4 8 4096)
 
 # Set the number of camera positions to generate
-num_cameras=1
+num_cameras=1000
 
 # Start index
 start_index=0
