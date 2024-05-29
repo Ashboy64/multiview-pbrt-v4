@@ -1,0 +1,21 @@
+Sampler "halton"
+
+Integrator "volpath" "integer maxdepth" 15
+
+Film "gbuffer"
+     "integer yresolution" [ 64 ] "integer xresolution" [ 64 ]
+     "string filename" [ "random_camera_26.exr" ]
+
+Scale -1 1 1
+
+LookAt 221.99 120.92 9.47536
+       221.015 120.879 9.40916
+       -0.0263166 0.995668 -0.0182449
+
+Camera "perspective"
+       "float fov" [ 42.3729 ]
+
+WorldBegin
+Include "lights-no-windowglass.pbrt"
+Include "materials.pbrt"
+Include "geometry.pbrt"

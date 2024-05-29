@@ -8,12 +8,12 @@ Film "gbuffer"
 
 Scale -1 1 1
 
-LookAt 352.876 151.55 136.633
-       352.159 151.281 135.998
-       -0.1875 0.96271 -0.176897
+LookAt 351.3 226.012 206.479
+       350.706 225.591 205.806
+       -0.26257 0.901394 -0.316829
 
 Camera "perspective"
-       "float fov" [ 20.6079 ]
+       "float fov" [ 24.7036 ]
 
 WorldBegin
 Include "lights-no-windowglass.pbrt"
