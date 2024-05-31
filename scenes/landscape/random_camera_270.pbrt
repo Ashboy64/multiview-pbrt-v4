@@ -1,0 +1,17 @@
+Transform [ -0.947655 0.0134163 0.0432878 0 -1.68467e-18 0.883104 -0.460894 0 -0.0468466 -0.462492 -0.830844 0 -302.989 633.823 5761.53 1 ]
+Camera "perspective"
+    "float lensradius" [ 0.369023 ]
+    "float focaldistance" [ 1955.7 ]
+    "float fov" [ 28.0645 ]
+Sampler "halton"
+    "integer pixelsamples" [ 556 ]
+Film "rgb"
+    "string filename" [ "random_camera_270.exr" ]
+    "integer yresolution" [ 64 ]
+    "integer xresolution" [ 64 ]
+    "float iso" [ 295 ]
+    "float whitebalance" [ 9000 ]
+
+WorldBegin
+
+Include "geometry/geometry.pbrt"
